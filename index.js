@@ -1,27 +1,27 @@
-//console.log(fetch("https://jsonplaceholder.typicode.com/users/1"))
+console.log(fetch("https://jsonplaceholder.typicode.com/users/1"))
 
 //then
 
-/*
+
 fetch("https://jsonplaceholder.typicode.com/users/1").then(response => {
     console.log(response.json())
 })
-*/
 
 
 
-/*
+
+
 fetch("https://jsonplaceholder.typicode.com/users/1").then(response => {
     response.json().then(data => {
         console.log(data)
         emailRef.innerHTML = data.address.street
     })
 })
-*/
+
 
 //best practice -> of "then"
 
-/*
+
 fetch("https://jsonplaceholder.typicode.com/users/1").then(response => {
     return response.json()
 })
@@ -30,8 +30,7 @@ fetch("https://jsonplaceholder.typicode.com/users/1").then(response => {
     emailRef.innerHTML = data.email
 })
 
-*/
-/*
+
 const emailRef = document.querySelector(".email")
 console.log(emailRef)
 
@@ -45,7 +44,7 @@ async function main() {
 }
 
 main()
-*/
+
 
 
 const subRef = document.querySelector('.substatus')

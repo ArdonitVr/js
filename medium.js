@@ -197,11 +197,11 @@ console.log(filterOutFalsy([false,0,'abcs',undefined,8]))
 //arr filter example
 
 
-function removeApples(arr) {
+function removeFalsy(arr) {
     return arr.filter(elem => !!elem === true)
 
 }
-console.log(removeApples([0,'Bananas','Pears',null,undefined,5]))
+console.log(removeFalsy([0,'Bananas','Pears',null,undefined,5]))
 
 
 
